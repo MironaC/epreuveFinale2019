@@ -701,36 +701,13 @@ body.page .main-navigation {
   grid-gap: 10px;
   margin: 2% 2% 0% 15%;
   font-size: 1.5em;
-}
-
-.liste-cours .session-1 {
-  background-color: #1c7742;
-  color: #fff;
-}
-
-.liste-cours .session-2 {
-  background-color: #d3a145;
-  color: #aaa;
-}
-
-.liste-cours .session-3 {
-  background-color: #2f2f97;
-  color: #fff;
-}
-
-.liste-cours .session-4 {
-  background-color: #948b36;
-  color: #fff;
-}
-
-.liste-cours .session-5 {
-  background-color: #97173d;
-  color: #fff;
-}
-
-.liste-cours .session-6 {
-  background-color: #251b04;
-  color: #fff;
+  /*
+    .session-1 { background-color: #1c7742; color : #fff; }
+    .session-2 { background-color: #d3a145; color : #aaa;}
+    .session-3 { background-color: #2f2f97; color : #fff;}
+    .session-4 { background-color: #948b36; color : #fff;}
+    .session-5 { background-color: #97173d; color : #fff;}
+    .session-6 { background-color: #251b04; color : #fff;}*/
 }
 
 .liste-cours h3, .liste-cours h4 {
@@ -779,10 +756,41 @@ body.page .main-navigation {
   font-size: .4em;
 }
 
+.liste-cours .domaine-1 {
+  background-color: #1c7742;
+  color: #fff;
+}
+
+.liste-cours .domaine-2 {
+  background-color: #d3a145;
+  color: #000;
+}
+
+.liste-cours .domaine-3 {
+  background-color: #2f2f97;
+  color: #fff;
+}
+
+.liste-cours .domaine-4 {
+  background-color: #948b36;
+  color: #fff;
+}
+
+.liste-cours .domaine-5 {
+  background-color: #97173d;
+  color: #fff;
+}
+
+.liste-cours .domaine-6 {
+  background-color: #251b04;
+  color: #fff;
+}
+
 .entry .entry-content .has-large-font-size {
   font-size: 1em;
 }
 
+/*Page d'accueil*/
 .wp-block-image > a, figcaption > a {
   color: #ff3100 !important;
   text-decoration: none !important;
@@ -791,11 +799,17 @@ body.page .main-navigation {
   font-weight: 600;
 }
 
+.wp-block-media-text > div > p {
+  border: solid #64b3d4 1px;
+}
+
+/*Page des nouvelle et des événements*/
 .entry .entry-content p {
   background-color: #ffeded;
   padding: 2em;
 }
 
+/*PAGE COURS*/
 .liste-cours > .entry-title {
   text-align: center;
   text-transform: uppercase;
@@ -804,6 +818,10 @@ body.page .main-navigation {
 
 .liste-cours > .entry-title > a {
   color: #aaa;
+}
+
+.domaine-1, .domaine-2, .domaine-3, .domaine-3, .domaine-4, .domaine-5 {
+  border-radius: 5em;
 }
 
 @-webkit-keyframes anim1 {

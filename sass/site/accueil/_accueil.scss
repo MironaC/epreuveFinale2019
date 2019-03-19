@@ -2,6 +2,8 @@
     font-size: 1em; 
 }
 
+
+/*Page d'accueil*/
 .wp-block-image > a, figcaption > a{
     color:#ff3100 !important;
     text-decoration: none !important;
@@ -9,13 +11,19 @@
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
 }
+.wp-block-media-text > div > p{
+    border: solid #64b3d4 1px;
+}
 
 
+
+/*Page des nouvelle et des événements*/
 .entry .entry-content p{
     background-color: #ffeded;
     padding: 2em;
 }
 
+/*PAGE COURS*/
 
 .liste-cours > .entry-title{
     text-align: center;
@@ -25,5 +33,8 @@
 
 .liste-cours > .entry-title > a{
     color:#aaa;
+}
+.domaine-1, .domaine-2, .domaine-3, .domaine-3, .domaine-4, .domaine-5{
+    border-radius:5em;
 }
 
