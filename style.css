@@ -796,6 +796,16 @@ body.page .main-navigation {
   padding: 2em;
 }
 
+.liste-cours > .entry-title {
+  text-align: center;
+  text-transform: uppercase;
+  border: solid #bbb 1px;
+}
+
+.liste-cours > .entry-title > a {
+  color: #aaa;
+}
+
 @-webkit-keyframes anim1 {
   from {
     -webkit-transform: translateY(-100vh) rotateX(0deg);
