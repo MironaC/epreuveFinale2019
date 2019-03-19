@@ -791,6 +791,11 @@ body.page .main-navigation {
   font-weight: 600;
 }
 
+.entry .entry-content p {
+  background-color: #ffeded;
+  padding: 2em;
+}
+
 @-webkit-keyframes anim1 {
   from {
     -webkit-transform: translateY(-100vh) rotateX(0deg);
